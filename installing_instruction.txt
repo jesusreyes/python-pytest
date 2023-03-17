@@ -1,0 +1,11 @@
+>>>python3 -m venv env
+>>>source env/bin/activate
+>>>pip install pytest
+
+Para probar:
+>>> pythin3 app/test/test_task.py -v -s
+
+Si queremos saber la cobertura de nuestras pruebas instalamos coverage
+>>> pip install coverage
+>>> coverage run -m pytest
+>>> coverage report -m
